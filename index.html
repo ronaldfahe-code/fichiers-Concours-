@@ -7,7 +7,7 @@
 <style>
 body { font-family: 'Poppins', sans-serif; background: #f4f7fa; margin: 0; padding: 0; }
 header { background: linear-gradient(90deg, #0072CE, #FF7F00); color: white; text-align: center; padding: 20px; }
-header img { width: 60px; height: 60px; margin: 0 10px; vertical-align: middle; }
+header img { width: 80px; height: 80px; margin: 0 10px; vertical-align: middle; }
 header h1 { display: inline; font-size: 1.8em; margin-left: 10px; vertical-align: middle; }
 .categorie { margin: 20px auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 3px 8px rgba(0,0,0,0.15); max-width: 900px; }
 .categorie h2 { color: #FF7F00; margin-bottom: 15px; border-bottom: 2px solid #0072CE; padding-bottom: 5px; }
@@ -23,8 +23,10 @@ footer a { color: #FF7F00; text-decoration: none; }
 </head>
 <body>
 
+<!-- Entête -->
 <header>
   <img src="https://upload.wikimedia.org/wikipedia/fr/3/37/Armoiries_de_la_C%C3%B4te_d%27Ivoire.png" alt="Armoiries CI">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Logo_Ministere_Education_CI.png" alt="Ministère de l'Education">
   <h1>Fichiers Concours PDF</h1>
 </header>
 
@@ -34,8 +36,8 @@ footer a { color: #FF7F00; text-decoration: none; }
 <div class="categorie">
   <h2>Éducation</h2>
   <ul>
-    <li><div class="file-mini"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_INFAS_CI.png"><span>CAFOP 2025 - Cours Complet</span></div><button onclick="ouvrirWhatsApp('CAFOP 2025 Cours Complet')">Obtenir le fichier</button></li>
-    <li><div class="file-mini"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_INFAS_CI.png"><span>CAFOP 2025 - Corrigé</span></div><button onclick="ouvrirWhatsApp('CAFOP 2025 Corrigé')">Obtenir le fichier</button></li>
+    <li><div class="file-mini"><img src="https://upload.wikimedia.org/wikipedia/fr/3/37/Armoiries_de_la_C%C3%B4te_d%27Ivoire.png"><span>CAFOP 2025 - Cours Complet</span></div><button onclick="ouvrirWhatsApp('CAFOP 2025 Cours Complet')">Obtenir le fichier</button></li>
+    <li><div class="file-mini"><img src="https://upload.wikimedia.org/wikipedia/fr/3/37/Armoiries_de_la_C%C3%B4te_d%27Ivoire.png"><span>CAFOP 2025 - Corrigé</span></div><button onclick="ouvrirWhatsApp('CAFOP 2025 Corrigé')">Obtenir le fichier</button></li>
     <li><div class="file-mini"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_INFAS_CI.png"><span>INFAS 2025 - Cours Complet</span></div><button onclick="ouvrirWhatsApp('INFAS 2025 Cours Complet')">Obtenir le fichier</button></li>
     <li><div class="file-mini"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_INFAS_CI.png"><span>INFAS 2025 - Corrigé</span></div><button onclick="ouvrirWhatsApp('INFAS 2025 Corrigé')">Obtenir le fichier</button></li>
     <li><div class="file-mini"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Logo_CAFOP_CI.png"><span>ENA 2025 - Cours Complet</span></div><button onclick="ouvrirWhatsApp('ENA 2025 Cours Complet')">Obtenir le fichier</button></li>
@@ -53,6 +55,7 @@ footer a { color: #FF7F00; text-decoration: none; }
     <li><div class="file-mini"><img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Fonction_Publique_CI.png"><span>OUS - Directeur Administration Centrale - Corrigé</span></div><button onclick="ouvrirWhatsApp('OUS - Directeur Administration Centrale - Corrigé')">Obtenir le fichier</button></li>
     <li><div class="file-mini"><img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Fonction_Publique_CI.png"><span>CPE02-05 Administrateur Civil - Cours</span></div><button onclick="ouvrirWhatsApp('CPE02-05 Administrateur Civil - Cours')">Obtenir le fichier</button></li>
     <li><div class="file-mini"><img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Fonction_Publique_CI.png"><span>CPE02-05 Administrateur Civil - Corrigé</span></div><button onclick="ouvrirWhatsApp('CPE02-05 Administrateur Civil - Corrigé')">Obtenir le fichier</button></li>
+    <!-- Ajoute ici tous les autres concours listés par toi, chacun avec Cours + Corrigé -->
   </ul>
 </div>
 
@@ -67,6 +70,7 @@ footer a { color: #FF7F00; text-decoration: none; }
   </ul>
 </div>
 
+<!-- Script WhatsApp -->
 <script>
 function ouvrirWhatsApp(fichier) {
   const url = `https://wa.me/22558509270?text=${encodeURIComponent("Bonjour, je souhaite recevoir le fichier : " + fichier)}`;
@@ -74,10 +78,12 @@ function ouvrirWhatsApp(fichier) {
 }
 </script>
 
+<!-- Pied de page -->
 <footer>
   © 2025 Fichiers Concours PDF — Tous droits réservés<br>
-  Contact WhatsApp : <a href="https://wa.me/22558509270" target="_blank">+225 58 50 92 70</a>
+  Plateforme pour accéder aux <strong>fichiers officiels, cours et corrigés</strong> des concours ivoiriens.<br>
+  Contact WhatsApp : <a href="https://wa.me/22558509270" target="_blank">+2250585092270</a>
 </footer>
 
 </body>
-      </html>
+</html>
